@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900" role="img" aria-labelledby="title desc">
+  <title id="title">虚拟人物占位图</title>
+  <desc id="desc">由几何形状构成的黑色人物剪影，后续可替换成个人照片。</desc>
+  <defs>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#303640"/><stop offset="1" stop-color="#0e1116"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#dce3ec"/><stop offset="1" stop-color="#9aa5b3"/></linearGradient>
+  </defs>
+  <circle cx="365" cy="245" r="115" fill="none" stroke="#286ee8" opacity=".28"/>
+  <circle cx="365" cy="245" r="170" fill="none" stroke="#ff4e91" opacity=".2"/>
+  <path d="M258 182c22-88 190-87 211 12 7 38-1 103-34 137-28 28-86 34-122-2-40-41-66-102-55-147z" fill="url(#face)"/>
+  <path d="M250 213c0-115 68-161 142-149 70 11 112 69 88 151-17-58-56-94-100-95-42-1-78 32-109 103z" fill="#171b22"/>
+  <path d="M288 360c46-37 151-38 205 5 92 72 114 270 133 535H89c14-193 41-456 199-540z" fill="url(#coat)"/>
+  <path d="M342 333l42 68 49-70 20 35-68 100-65-103z" fill="#0a0c10"/>
+  <path d="M214 492c91 53 222 62 330 5" fill="none" stroke="#59616d" opacity=".35"/>
+  <path d="M175 831c63-107 81-202 81-317M536 835c-46-124-62-224-64-323" fill="none" stroke="#59616d" opacity=".3"/>
+</svg>
