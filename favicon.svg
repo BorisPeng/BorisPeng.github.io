@@ -1,5 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="15" fill="#101319"/>
-  <path d="M15 46V17h9l16 18V17h9v29h-8L24 27v19z" fill="#f4f7fd"/>
-  <circle cx="50" cy="14" r="5" fill="#ff4e91"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="R">
+  <defs>
+    <linearGradient id="bg" x1="7" y1="5" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a66e9" />
+      <stop offset="58%" stop-color="#6a5cef" />
+      <stop offset="100%" stop-color="#8f6cf2" />
+    </linearGradient>
+    <linearGradient id="shine" x1="32" y1="4" x2="32" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".45" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- 玻璃质感的靛蓝→紫罗兰底 -->
+  <rect width="64" height="64" rx="15" fill="url(#bg)" />
+  <path d="M15 0h34c8.3 0 15 6.7 15 15v6C64 10.8 50.2 4 32 4S0 10.8 0 21v-6C0 6.7 6.7 0 15 0Z" fill="url(#shine)" opacity=".8" />
+  <rect x="1.25" y="1.25" width="61.5" height="61.5" rx="13.75" fill="none" stroke="#ffffff" stroke-opacity=".32" stroke-width="1.4" />
+
+  <!-- 衬线 R 字标（加粗版，16px 下也清晰） -->
+  <path fill="#fdfeff" fill-rule="evenodd" d="M17 14h18.6c7 0 11.4 4.2 11.4 10.2 0 4.3-2.4 7.5-6.4 8.9L49.5 50h-9l-7.4-10.7h-5.2V50H17V14Zm9.9 6.8v8.9h9.6c3.3 0 5.4-1.8 5.4-4.5s-2.1-4.4-5.4-4.4h-9.6Z" />
 </svg>
